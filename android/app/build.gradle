@@ -94,9 +94,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.juniapp"
+    namespace "com.alarmproject"
     defaultConfig {
-        applicationId "com.juniapp"
+        applicationId "com.alarmproject"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

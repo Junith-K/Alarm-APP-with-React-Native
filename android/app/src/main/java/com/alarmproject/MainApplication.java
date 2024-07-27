@@ -1,4 +1,4 @@
-package com.juniapp;
+package com.alarmproject;
 
 import android.app.Application;
 import android.app.NotificationManager;
