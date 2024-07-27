@@ -1,0 +1,22 @@
+workflows:
+  react-native-workflow:
+    name: React Native Workflow
+    triggering:
+      events:
+        - push
+        - pull_request
+    scripts:
+      - name: Install Dependencies
+        script: |
+          npm install
+      - name: Build Android
+        script: |
+          cd android
+          ./gradlew assembleRelease
+          cd ..
+    artifacts:
+      - android/app/build/outputs/**/*.apk
+    publishing:
+      email:
+        recipients:
+          - junithjunith28@gmail.com
