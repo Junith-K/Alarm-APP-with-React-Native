@@ -1,4 +1,4 @@
-package com.alarmproject;
+package com.juniapp;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
